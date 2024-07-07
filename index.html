@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1, user-scalable=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css" />
+    <title>Blog</title>
+</head>
+
+<body class="home" data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid  px-lg-5">
+            <a class="navbar-brand px-lg-5" href="index.php">BSCS Educational Tour 2024</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse order-lg-1 px-5" id="navMenu">
+                <ul class="navbar-nav  mr-0 mt-2 mt-lg-10">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase" href="schedule.html">Schedule</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase" href="#speakers.html">Speakers</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase" href="venue.html">Venue</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="master  bg-custom">
+        <div class="landing section-img-bg">
+            <h1> BSCS Educational Tour</h1>
+
+        </div>
+    </header>
+
+    <section class="landing cl">
+        <div class="title">
+            <h1>Recap Of four-day company visit</h1>
+        </div>
+        <div class="row fo-day">
+            <!-- Carousel for Day 1 -->
+            <div class="col-6 col-md-3 mb-4 four-card">
+                <h4>Day 1</h4>
+                <div id="fourCarouselDay1" class="carousel  slide four-carousel" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#fourCarouselDay1" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#fourCarouselDay1" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#fourCarouselDay1" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner four-carousel-inner">
+                        <div class="carousel-item four-carousel-item active">
+                            <img src="img/PA1.jpg" class="d-block w-100" alt="Slide 1">
+                        </div>
+                        <div class="carousel-item four-carousel-item">
+                            <img src="img/PAGASA1.jpg" class="d-block w-100" alt="Slide 2">
+                        </div>
+                        <div class="carousel-item four-carousel-item">
+                            <img src="img/PA11.jpg" class="d-block w-100" alt="Slide 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev four-carousel-control-prev" type="button"
+                        data-bs-target="#fourCarouselDay1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon four-carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next four-carousel-control-next" type="button"
+                        data-bs-target="#fourCarouselDay1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon four-carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p>Visit: Pagasa Weather Station<br>Visit: First Aviation Academy<br>Visit: Vessel Traffic Management
+                    System</p>
+            </div>
+
+            <!-- Repeat similar structure for Day 2, Day 3, and Day 4 -->
+            <!-- Carousel for Day 2 -->
+            <div class="col-6 col-md-3 mb-4 four-card">
+                <h4>Day 2</h4>
+                <div id="fourCarouselDay2" class="carousel slide four-carousel" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#fourCarouselDay2" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#fourCarouselDay2" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#fourCarouselDay2" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner four-carousel-inner">
+                        <div class="carousel-item four-carousel-item active">
+                            <img src="img/Q1.jpg" class="d-block w-100" alt="Slide 1">
+                        </div>
+                        <div class="carousel-item four-carousel-item">
+                            <img src="img/PW2.jpg" class="d-block w-100" alt="Slide 2">
+                        </div>
+                        <div class="carousel-item four-carousel-item">
+                            <img src="img/PW3.jpg" class="d-block w-100" alt="Slide 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev four-carousel-control-prev" type="button"
+                        data-bs-target="#fourCarouselDay2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon four-carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next four-carousel-control-next" type="button"
+                        data-bs-target="#fourCarouselDay2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon four-carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p>Visit: OBO Innovation Hub<br>Visit: Packetworx Inc</p>
+            </div>
+
+            <!-- Carousel for Day 3 -->
+            <div class="col-6 col-md-3 mb-4 four-card">
+                <h4>Day 3</h4>
+                <div id="fourCarouselDay3" class="carousel slide four-carousel" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#fourCarouselDay3" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#fourCarouselDay3" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#fourCarouselDay3" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner four-carousel-inner">
+                        <div class="carousel-item four-carousel-item active">
+                            <img src="img/LRT1.jpg" class="d-block w-100" alt="Slide 1">
+                        </div>
+                        <div class="carousel-item four-carousel-item">
+                            <img src="img/LRT2.jpg" class="d-block w-100" alt="Slide 2">
+                        </div>
+                        <div class="carousel-item four-carousel-item">
+                            <img src="img/PA1.jpg" class="d-block w-100" alt="Slide 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev four-carousel-control-prev" type="button"
+                        data-bs-target="#fourCarouselDay3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon four-carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next four-carousel-control-next" type="button"
+                        data-bs-target="#fourCarouselDay3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon four-carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p>Visit: Light Rail Transit Authority-Line 2<br>Visit: National Museum Of the Philippines</p>
+            </div>
+
+            <!-- Carousel for Day 4 -->
+            <div class="col-6 col-md-3 mb-4 four-card">
+                <h4>Day 4</h4>
+                <div id="fourCarouselDay4" class="carousel slide four-carousel" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#fourCarouselDay4" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#fourCarouselDay4" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#fourCarouselDay4" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner four-carousel-inner">
+                        <div class="carousel-item four-carousel-item active">
+                            <img src="img/p1.jpg" class="d-block w-100" alt="Slide 1">
+                        </div>
+                        <div class="carousel-item four-carousel-item">
+                            <img src="img/H1.jpg" class="d-block w-100" alt="Slide 2">
+                        </div>
+                        <div class="carousel-item four-carousel-item">
+                            <img src="img/H2.jpg" class="d-block w-100" alt="Slide 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev four-carousel-control-prev" type="button"
+                        data-bs-target="#fourCarouselDay4" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon four-carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next four-carousel-control-next" type="button"
+                        data-bs-target="#fourCarouselDay4" data-bs-slide="next">
+                        <span class="carousel-control-next-icon four-carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p>Visit: 98 Labs <br>Visit: Hytec Power INC.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="landing ">
+        <div class="title col-md-8">
+            <h5>The goal of the Bachelor of Science in Computer Science (BSCS) educational tour is to provide students
+                with practical exposure to the real-world applications of computer science concepts and technologies.
+            </h5>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel pic-t slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/p1.jpg" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/p2.jpg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/p3.jpg" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+
+
+    </section>
+
+    <section class="landing ">
+        <div class="title">
+            <h1> The Speakers</h1>
+        </div>
+
+        <div class="row container">
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card s-card">
+
+                    <div class="card-front">
+                        <div class="img">
+                            <img src="img/speaker1.jpg" alt="img" class="img-fluid s-img">
+                        </div>
+                        <p class="title">Arnel Gonzales</p>
+
+                    </div>
+                    <div class="card-back">
+                        <p>Weather</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card s-card">
+                    <div class="card-front">
+                        <div class="img">
+                            <img src="img/speaker2.jpg" alt="img" class="img-fluid s-img">
+                        </div>
+                        <p class="title">Dave Del Rosario</p>
+                        <p class="subtitle">FAA</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Software Plane</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card s-card">
+                    <div class="card-front">
+                        <div class="img">
+                            <img src="img/speaker3.jpg" alt="img" class="img-fluid s-img">
+                        </div>
+                        <p class="title">Jerome Saddi</p>
+                        <p class="subtitle">Web Dev</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Ships</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card s-card">
+                    <div class="card-front">
+                        <div class="img">
+                            <img src="img/speaker5.jpg" alt="img" class="img-fluid s-img">
+                        </div>
+                        <p class="title">Rose Ann Caraan</p>
+                        <p class="subtitle">Web Dev</p>
+                    </div>
+                    <div class="card-back">
+                        <p>IOT</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card s-card">
+                    <div class="card-front">
+                        <div class="img">
+                            <img src="img/speaker6.jpg" alt="img" class="img-fluid s-img">
+                        </div>
+                        <p class="title">Karla Legaspi</p>
+                        <p class="subtitle">Web Dev</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Start Up</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card s-card">
+                    <div class="card-front">
+                        <div class="img">
+                            <img src="img/speaker8.jpg" alt="img" class="img-fluid s-img">
+                        </div>
+                        <p class="title">Adrian Saldana</p>
+                        <p class="subtitle">Web Dev</p>
+                    </div>
+                    <div class="card-back">
+                        <p>LRT</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card s-card">
+                    <div class="card-front">
+                        <div class="img">
+                            <img src="img/speaker9.jpg" alt="img" class="img-fluid s-img">
+                        </div>
+                        <p class="title">Brian Tan Seng </p>
+                        <p class="subtitle">Web Dev</p>
+                    </div>
+                    <div class="card-back">
+                        <p> Ceo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card s-card">
+                    <div class="card-front">
+                        <div class="img">
+                            <img src="img/s4.jpg" alt="img" class="img-fluid s-img">
+                        </div>
+                        <p class="title">Norman Gretchel Lista</p>
+                        <p class="subtitle">Web Dev</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Invention</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="landing">
+        <div class="title">
+            <h1> The Venue</h1>
+        </div>
+        <div class="container mt-5">
+
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="polaroid">
+                        <div class="card-img-top">
+                            <img src="/img/PA11.jpg" class="img-fluid v-img" alt="Place Image 1" data-bs-toggle="modal"
+                                data-bs-target="#mapModal" data-map=iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7715.203036007879!2d120.270985!3d14.791461!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339673e6d3deab69%3A0x2f3b963c762acd05!2s8330%20Argonaut%20Hwy%2C%20Subic%20Bay%20Freeport%20Zone%2C%20Bataan!5e0!3m2!1sen!2sph!4v1720344355662!5m2!1sen!2sph"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="overlay" data-bs-toggle="modal" data-bs-target="#mapModal"
+                                data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7715.203036007879!2d120.270985!3d14.791461!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339673e6d3deab69%3A0x2f3b963c762acd05!2s8330%20Argonaut%20Hwy%2C%20Subic%20Bay%20Freeport%20Zone%2C%20Bataan!5e0!3m2!1sen!2sph!4v1720344355662!5m2!1sen!2sph"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>See the Map</div>
+                        </div>
+                        <div class="caption"> Pagasa Weather Station </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="polaroid">
+
+                        <div class="card-img-top">
+                            <img src="/img/FM1.jpg" class="img-fluid v-img" alt="Place Image 1" data-bs-toggle="modal"
+                                data-bs-target="#mapModal"
+                                data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7715.199444829683!2d120.270447!3d14.791562000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396718150945b3d%3A0x4b6f605fea257dcd!2sFirst%20Aviation%20Academy!5e0!3m2!1sen!2sph!4v1720344791544!5m2!1sen!2sph"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="overlay" data-bs-toggle="modal" data-bs-target="#mapModal"
+                                data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7715.199444829683!2d120.270447!3d14.791562000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396718150945b3d%3A0x4b6f605fea257dcd!2sFirst%20Aviation%20Academy!5e0!3m2!1sen!2sph!4v1720344791544!5m2!1sen!2sph"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe> See the Map</div>
+                        </div>
+                        <div class="caption"> First Aviation Academy </div>
+                    </div>
+
+
+                </div>
+            
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="polaroid">
+                    <div class="card-img-top">
+                        <img src="/img/SUBIC21.jpg" class="img-fluid v-img" alt="Place Image 1" data-bs-toggle="modal"
+                            data-bs-target="#mapModal"
+                            data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7715.199444829683!2d120.270447!3d14.791562000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396718150945b3d%3A0x4b6f605fea257dcd!2sFirst%20Aviation%20Academy!5e0!3m2!1sen!2sph!4v1720344791544!5m2!1sen!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="overlay" data-bs-toggle="modal" data-bs-target="#mapModal"
+                            data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7714.338898708312!2d120.283496!3d14.815745000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396716d2c317895%3A0x80efb8e606357bfd!2sSBMA%20Seaport%20Administration%20Building!5e0!3m2!1sen!2sph!4v1720345928156!5m2!1sen!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            See the Map</div>
+                    </div>
+                    <div class="caption"> Vessel Traffic Management System</div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="polaroid">
+
+                    <div class="card-img-top">
+                        <img src="/img/Q1.jpg" class="img-fluid v-img" alt="Place Image 1" data-bs-toggle="modal"
+                            data-bs-target="#mapModal"
+                            data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7723.350862991429!2d121.030012!3d14.560544000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c900f2161131%3A0x929312216d6fcc29!2sQBO%20Innovation%20Hub!5e0!3m2!1sen!2sph!4v1720346015034!5m2!1sen!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="overlay" data-bs-toggle="modal" data-bs-target="#mapModal"
+                            data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7723.350862991429!2d121.030012!3d14.560544000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c900f2161131%3A0x929312216d6fcc29!2sQBO%20Innovation%20Hub!5e0!3m2!1sen!2sph!4v1720346015034!5m2!1sen!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            See the Map</div>
+                    </div>
+                    <div class="caption"> QBO Innovation Hub</div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="polaroid">
+
+                    <div class="card-img-top">
+                        <img src="/img/PW2.jpg" class="img-fluid v-img" alt="Place Image 1" data-bs-toggle="modal"
+                            data-bs-target="#mapModal"
+                            data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7722.47543120388!2d121.063573!3d14.585526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9a4a1982bd9%3A0xe1e7227208bd9247!2sPacketworx%20Inc%20-%20IoT%20Technology%20Hub!5e0!3m2!1sen!2sph!4v1720346074712!5m2!1sen!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="overlay" data-bs-toggle="modal" data-bs-target="#mapModal"
+                            data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7722.47543120388!2d121.063573!3d14.585526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9a4a1982bd9%3A0xe1e7227208bd9247!2sPacketworx%20Inc%20-%20IoT%20Technology%20Hub!5e0!3m2!1sen!2sph!4v1720346074712!5m2!1sen!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            See the Map</div>
+                    </div>
+                    <div class="caption">Packetworx</div>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="polaroid">
+
+                    <div class="card-img-top">
+                        <img src="/img/LRT2.jpg" class="img-fluid v-img" alt="Place Image 1" data-bs-toggle="modal"
+                            data-bs-target="#mapModal"
+                            data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7721.283279561652!2d121.08617699999999!3d14.619479000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b823db2abd7f%3A0xb3c334cc1b3ae9c5!2sLight%20Rail%20Transit%20Authority-%20Line%202%20Depot!5e0!3m2!1sen!2sph!4v1720346138754!5m2!1sen!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="overlay" data-bs-toggle="modal" data-bs-target="#mapModal"
+                            data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7721.283279561652!2d121.08617699999999!3d14.619479000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b823db2abd7f%3A0xb3c334cc1b3ae9c5!2sLight%20Rail%20Transit%20Authority-%20Line%202%20Depot!5e0!3m2!1sen!2sph!4v1720346138754!5m2!1sen!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            See the Map</div>
+                    </div>
+                    <div class="caption"> Light Rail Transit Authority -Line 2 </div>
+                </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="col-md-4 mb-4">
+                <div class="polaroid">
+                    <div class="card-img-top">
+                        <img src="/img/NP.jpg" class="img-fluid v-img" alt="Place Image 1" data-bs-toggle="modal"
+                            data-bs-target="#mapModal"
+                            data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7722.425977504742!2d120.981249!3d14.586935999999998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca23d0569b6b%3A0xcfc70cbb93eae02a!2sNational%20Museum%20of%20Fine%20Arts!5e0!3m2!1sen!2sph!4v1720346202495!5m2!1sen!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="overlay" data-bs-toggle="modal" data-bs-target="#mapModal"
+                            data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7722.425977504742!2d120.981249!3d14.586935999999998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca23d0569b6b%3A0xcfc70cbb93eae02a!2sNational%20Museum%20of%20Fine%20Arts!5e0!3m2!1sen!2sph!4v1720346202495!5m2!1sen!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            See the Map</div>
+                    </div>
+                    <div class="caption"> National Museum of the Philippines</div>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="col-md-4 mb-4">
+                <div class="polaroid">
+                    <div class="card-img-top">
+                        <img src="/img/981.jpg" class="img-fluid v-img" alt="Place Image 1" data-bs-toggle="modal"
+                            data-bs-target="#mapModal" 
+                            data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7723.403099941971!2d121.019612!3d14.559052!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c908d0d55acf%3A0x3a25821d4166359!2s98Labs%2C%20Inc.!5e0!3m2!1sen!2sph!4v1720346314240!5m2!1sen!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="overlay" data-bs-toggle="modal" data-bs-target="#mapModal"
+                        data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7723.403099941971!2d121.019612!3d14.559052!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c908d0d55acf%3A0x3a25821d4166359!2s98Labs%2C%20Inc.!5e0!3m2!1sen!2sph!4v1720346314240!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            See the Map</div>
+                    </div>
+                    <div class="caption">98 Labs</div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="polaroid">
+                    <div class="card-img-top">
+                        <img src="/img/H1.jpg" class="img-fluid v-img" alt="Place Image 1" data-bs-toggle="modal"
+                            data-bs-target="#mapModal"
+                            data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7717.283154640236!2d121.047798!3d14.732845!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b05aff953619%3A0xa8e475f45adcece3!2sHytec%20Power%20Incorporated!5e0!3m2!1sen!2sph!4v1720346416122!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="overlay" data-bs-toggle="modal" data-bs-target="#mapModal"
+                            data-map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7717.283154640236!2d121.047798!3d14.732845!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b05aff953619%3A0xa8e475f45adcece3!2sHytec%20Power%20Incorporated!5e0!3m2!1sen!2sph!4v1720346416122!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            See the Map</div>
+                    </div>
+                    <div class="caption">Hytec Power Inc.</div>
+                </div>
+            </div>
+        
+        
+
+        <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="mapModalLabel">Map</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="map-container">
+                            <iframe id="mapIframe" src="" frameborder="0" allowfullscreen="" aria-hidden="false"
+                                tabindex="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
